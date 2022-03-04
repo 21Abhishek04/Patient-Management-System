@@ -49,5 +49,19 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BusinessLayer_PMS\BusinessLayer_PMS.csproj">
+      <Project>{a12f964e-9c8d-4de5-8e85-34089da48867}</Project>
+      <Name>BusinessLayer_PMS</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BusinessObject_PMS\BusinessObject_PMS.csproj">
+      <Project>{b342a37c-cd29-4bc5-86c7-7fd91e971c5d}</Project>
+      <Name>BusinessObject_PMS</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ExceptionLayer_PMS\ExceptionLayer_PMS.csproj">
+      <Project>{f0c3b7f4-b4f7-4063-8e5d-d174b2f4c72a}</Project>
+      <Name>ExceptionLayer_PMS</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
