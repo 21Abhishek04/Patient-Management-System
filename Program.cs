@@ -27,6 +27,7 @@ namespace Patient_Management_System
             //bo._AppointmentDate = DateTime.Parse(Console.ReadLine());
 
 
+
             BLPMS pbl = new BLPMS();
             int h = pbl.SaveDetails(bo);
             if (h != 0)
